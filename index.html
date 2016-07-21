@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portfolio</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/responsive.css">    
+	<script src="https://use.fontawesome.com/2d77bba627.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic&subset=latin,cyrillic,cyrillic-ext' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+</head>
+<body>
+	<!-- <div id="preloader">
+		<div id="preloader_preload">
+			SkatLine
+		</div>
+	</div> -->
+	<!--START Header -->
+	<header class="header" id="header">
+		<div class="container">
+			<div class="logo animated fadeInLeft wow">SkatLine</div>
+			<h3 class="animated wow fadeInDown delay-30s">Frontend Developer</h3>
+			<div class="godown animated wow fadeInUp delay-30s">
+				<a href="#whoAmI" class="arrowLink">
+					<i class="fa fa-arrow-circle-down animated pulse" aria-hidden="true"></i>
+				</a>
+			</div>
+		</div>
+	</header>
+	<!--End Header -->
+
+
+	<!--START Navigation -->
+	<nav class="navbar">
+		<div class="container container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#header" class="mobile_navLogo">SkatLine</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav main-nav navbar-left animated fadeInDown delay-30s" align="right">
+					<li><a href="#header">Главная</a></li>
+					<li><a href="#whatIDo">Что умею</a></li>
+					<li><a href="#past">Где работал</a></li>
+				</ul>
+				<ul class="nav navbar-nav main-nav navbar-center animated fadeIn delay-50s" align="center">
+					<li class="small-logo">
+						<a href="#header" class="navLogo">
+							SkatLine
+						</a>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav main-nav navbar-right animated fadeInDown delay-30s" align="left">
+					<li><a href="#whoAmI">Кто я</a></li>
+					<li><a href="#projects">Последние проекты</a></li>
+					<li><a href="#contact">Контакты</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+	<!--END Navigation -->
+
+
+	<section id="whoAmI">
+		<div class="container">
+			<h2 class="sectionTitle animated wow fadeInDown delay-50s">Кто я</h2>
+			<div class="row">
+				<figure class="col-lg-3 col-lg-offset-1 col-sm-4 wow fadeInLeft animated">
+					<div class="personBox">
+						<div class="personShadow">
+							<a href="#"></a>
+						</div>
+						<img src="images/me.jpeg" alt="">
+						<ul class="socailLinks">
+							<li>
+									<a href="skype:s--kat" class="fa fa-skype" title="Skype Me"></a>
+							</li>
+							<li>
+									<a href="https://www.facebook.com/sergio.ryabinin" class="fa fa-facebook" target="_blank" title="Facebook Profile"></a>
+							</li>
+							<li>
+									<a href="https://www.instagram.com/sergioriabinin/" target="_blank" class="fa fa-instagram" title="My Instagram"></a>
+							</li>
+						</ul>
+					</div>
+				</figure>
+				<div class=" aboutMe col-lg-7 col-lg-offset-1 col-sm-7 col-sm-offset-1 wow fadeInRight animated">
+					<p class="myInfo">Меня зовут Сергей Рябинин. Я Front-End разработчик и мне это нравиться. Мне 31 год и у меня есть семья - любимые жена и дочка. Живу в Калининграде.</p>
+					<p class="myInfo">Имею чувство юмора. Не курю.</p>
+					<p>		
+						Умею делать верстку, кромсать PSD-макеты на элементы, собирать их в "красивость" и "няшность", добавляя необходимую анимацию и вдыхая динамику в компоненты. Не пасую перед сложными задачами и добиваюсь того, что нужно мне и Вам.
+					</p>
+					<p>Работаю по ИП</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="whatIDo">
+		<div class="container">
+			<h2 class="sectionTitle animated wow fadeInDown delay-50s">Что умею</h2>
+			<p class="animated wow fadeInLeft delay-50s">Верстка с нуля. Нарезка PSD макет. Применение спрайтов. Работа с SVG. Верстка LTR(left-to-right) и RTL(right-to-left)-версий шаблонов для арабских стран. Создание Landing-страниц и email-рассылок. Написание скриптов с помощью jQuery. Создание адаптивной версии сайта с помощью Bootstrap, Foundation. Могу разобраться в PHP и поправить под нужды заказчика. GIT, JIRA, ASANA</p>
+			
+			<h4 class="animated wow fadeInLeft delay-50s">Использую следующие технологии и инструменты:</h4>
+			<div class="row tech">
+				<div class="col-xs-4 col-sm-4 col-md-4">
+					<p class="wow animated fadeInDown delay-50s"><i class="devicon-html5-plain"></i> HTML5</p>
+					<p class="wow animated fadeInDown delay-50s"><i class="devicon-css3-plain"></i> CSS3</p>
+					<p class="wow animated fadeInDown delay-50s"><i class="devicon-sass-original"></i> SASS</p>
+					<p class="wow animated fadeInDown delay-50s"><i class="devicon-jquery-plain"></i> jQuery</p>
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-4">
+					<p class="wow animated fadeInDown delay-50s"><i class="devicon-php-plain"></i> PHP</p>
+					<p class="wow animated fadeInDown delay-50s"><i class="devicon-mysql-plain"></i> MySQL</p>
+					<p class="wow animated fadeInDown delay-50s"><i class="devicon-bootstrap-plain"></i> Bootstrap</p>
+					<p class="wow animated fadeInDown delay-50s"><i class="devicon-gulp-plain"></i> Grunt/Gulp</p>
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-4">
+					<p class="wow animated fadeInDown delay-50s"><i class="devicon-photoshop-plain"></i> Photoshop</p>
+					<p class="wow animated fadeInDown delay-50s"><i class="devicon-git-plain"></i> Git</p>
+					<p class="wow animated fadeInDown delay-50s"><i class="fa fa-rocket" aria-hidden="true"></i> JIRA</p>
+					<p class="wow animated fadeInDown delay-50s"><i class="fa fa-users" aria-hidden="true"></i> SCRUM</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="actionSlider wow fadeInUp animated">
+		<div class="container">
+			<div class="whatIKnow">
+				<div><img src="images/html5.svg" alt=""></div>
+				<div><img src="images/CSS3.svg" alt=""></div>
+				<div><img src="images/sass.svg" alt=""></div>
+				<div><img src="images/jquery.svg" alt=""></div>
+				<div><img src="images/bootstrap.svg" alt=""></div>
+				<div><img src="images/git.svg" alt=""></div>
+				<div><img src="images/gulp.svg" alt=""></div>
+			</div>
+		</div>
+	</section>
+	<section id="education">
+		<div class="container">
+			<h2 class="sectionTitle animated wow fadeInDown delay-50s">Образование</h2>
+			<h3 class="animated wow fadeInDown delay-50s">Высшее</h3>
+			<p class="animated wow fadeInLeft delay-50s">
+				Кыргызский Государственный Технический Универститет им. Исхака Раззакова. Июнь 2008, факультет: "Информационные Технологии", специальность: "Программное обеспечение вычислительной техники и автоматизированных систем", квалификация: "Инженер".
+			</p>
+			<h3 class="animated wow fadeInDown delay-50s">Языки</h3>
+			<ul>
+				<li class="wow animated fadeInDown delay-50s">Русский — родной</li>
+				<li class="wow animated fadeInDown delay-50s">Английский — читаю профессиональную литературу</li>
+				<li class="wow animated fadeInDown delay-50s">Французский — средний</li>
+				<li class="wow animated fadeInDown delay-50s">Немецкий — базовый</li>
+			</ul>
+		</div>
+	</section>
+	<section id="past">
+		<div class="container">
+			<h2 class="sectionTitle animated wow fadeInDown delay-50s">Где работаю и работал</h2>
+			<div class="centeredText">
+				<h3 class="animated wow fadeInDown delay-50s">Сейчас</h3>
+				<h4 class="now-title animated wow fadeInDown delay-50s">Турне-Транс</h4>
+				<p class="role now-role animated wow fadeInDown delay-50s">Веб-разработчик</p>
+				<p class="animated wow fadeInDown delay-50s">Создание корпоративного решения по бронированию авиа-билетов, ж\д билетов, бронирование отелей.</p>
+			</div>
+			<h3 class="animated wow fadeInDown delay-50s">Ранее</h3>
+			<div class="col-sm-4 col-md-4 animated wow fadeInDown delay-50">
+				<h4>BeSmart KG</h4>
+				<p class="role">Frontend-разработчик, HTML/CSS coder</p>
+				<p>BeSmart является лидирующим купонным сервисом в Средней Азии и на Кавказе. Участвовал в создании новой версии сервиса с использованием новых технологий разработки</p>
+			</div>
+			<div class="col-sm-4 col-md-4 animated wow fadeInDown delay-50">
+				<h4>"WorksForWeb"</h4>
+				<p class="role">Frontend-разработчик, HTML/CSS coder</p>
+				<p>Создание кастомных решений по заказу клиентов на основе classifieds-скриптов</p>
+			</div>
+			<div class="col-sm-4 col-md-4 animated wow fadeInDown delay-50">
+				<h4>"Информационные Бизнес Системы"</h4>
+				<p class="role">Инженер-программист</p>
+				<p>Создание ТЗ для проекта «Автоматизация расчета зарплаты учителям и бухгалтерам»</p>
+				<p>Участие в разработке приложения бухгалтерского направления – «Автоматизация расчета зарплаты учителям и бухгалтерам» </p>
+			</div>
+		</div>
+	</section>
+	<section id="projects">
+		<h2 class="sectionTitle animated wow fadeInDown delay-50s">Последние проекты</h2>
+		<div class="last-projects-block">
+			<!--Start Project-->
+			<div class="col-md-3 col-sm-4 col-xs-12 animated wow fadeInDown delay-50">
+				<div class="row">
+					<div class="first-proj product-item">
+						<div class="product-item-name">Вместе Против Гепатита</div>
+						<div class="product-item-name-hover">
+							<div class="product-item-name-hover-name"> 
+								<span>Вместе Против Гепатита</span> 
+								<br> 
+								Лендинг-страница для сайта 
+								<p>http://protivgepatita.ru/ </p>
+								
+							</div>
+						</div> 
+					</div>
+				</div>
+			</div>
+			<!--End Project-->
+			<!--Start Project-->
+			<div class="col-md-3 col-sm-4 col-xs-12 animated wow fadeInDown delay-50">
+				<div class="row">
+					<div class="second-proj product-item">
+						<div class="product-item-name">Witnesses</div>
+						<div class="product-item-name-hover">
+							<div class="product-item-name-hover-name"> 
+								<span>Witnesses</span> 
+								<br> 
+								Cтраница для сайта 
+								<p>http://witnessesmovie.com/partners</p>
+								
+							</div>
+						</div> 
+					</div>
+				</div>
+			</div>
+			<!--End Project-->
+			<!--Start Project-->
+			<div class="col-md-3 col-sm-4 col-xs-12 animated wow fadeInDown delay-50">
+				<div class="row">
+					<div class="third-proj product-item">
+						<div class="product-item-name">Google МТС</div>
+						<div class="product-item-name-hover">
+							<div class="product-item-name-hover-name"> 
+								<span>МТС GooglePlay</span> 
+								<br> 
+								Cтраница для сайта 
+								<p>http://google.mts.ru/</p>								
+							</div>
+						</div> 
+					</div>
+				</div>
+			</div>
+			<!--End Project-->
+			<!--Start Project-->
+			<div class="col-md-3 col-sm-4 col-xs-12 animated wow fadeInDown delay-50">
+				<div class="row">
+					<div class="fourth-proj product-item">
+						<div class="product-item-name">FIBRUM</div>
+						<div class="product-item-name-hover">
+							<div class="product-item-name-hover-name"> 
+								<span>FIBRUM</span> 
+								<br> 
+								Интерактивный проект  
+								<p>http://skatline.com/fibrum/</p>								
+							</div>
+						</div> 
+					</div>
+				</div>
+			</div>
+			<!--End Project-->
+			<!--Start Project-->
+			<div class="col-md-3 col-sm-4 col-xs-12 animated wow fadeInUp delay-50">
+				<div class="row">
+					<div class="fifth-proj product-item">
+						<div class="product-item-name">IZBA</div>
+						<div class="product-item-name-hover">
+							<div class="product-item-name-hover-name"> 
+								<span>IZBA</span> 
+								<br> 
+								Сайт аренды квартир в Екатеринбурге  
+								<p>http://skatline.com/izba</p>								
+							</div>
+						</div> 
+					</div>
+				</div>
+			</div>
+			<!--End Project-->
+			<!--Start Project-->
+			<div class="col-md-3 col-sm-4 col-xs-12 animated wow fadeInUp delay-50">
+				<div class="row">
+					<div class="six-proj product-item">
+						<div class="product-item-name">HENKEL</div>
+						<div class="product-item-name-hover">
+							<div class="product-item-name-hover-name"> 
+								<span>HENKEL</span> 
+								<br> 
+								Email-рассылка с акцией от Henkel 
+								<p>http://skatline.com/email-league.html</p>								
+							</div>
+						</div> 
+					</div>
+				</div>
+			</div>
+			<!--End Project-->
+			<!--Start Project-->
+			<div class="col-md-3 col-sm-4 col-xs-12 animated wow fadeInUp delay-50">
+				<div class="row">
+					<div class="seven-proj product-item">
+						<div class="product-item-name">ТарКом</div>
+						<div class="product-item-name-hover">
+							<div class="product-item-name-hover-name"> 
+								<span>Калининградский Тарный Комбинат</span> 
+								<br> 
+								Сайт по производству металлической упаковки 
+								<p>http://tarkom.ru</p>								
+							</div>
+						</div> 
+					</div>
+				</div>
+			</div>
+			<!--End Project-->
+			<!--Start Project-->
+			<div class="col-md-3 col-sm-4 col-xs-12 animated wow fadeInUp delay-50">
+				<div class="row">
+					<div class="eight-proj product-item">
+						<div class="product-item-name">BeSmart</div>
+						<div class="product-item-name-hover">
+							<div class="product-item-name-hover-name"> 
+								<span>BeSmart</span> 
+								<br> 
+								Купонный сервис в Средней Азии и на Кавказе 
+								<p>https://besmart.kg/</p>								
+							</div>
+						</div> 
+					</div>
+				</div>
+			</div>
+			<!--End Project-->
+		</div>
+	</section>
+	<section id="contact">
+		
+		<div class="container">
+			<h2 class="sectionTitle animated wow fadeInDown delay-50s">Контакты</h2>
+			<div class="footer-logo animated wow fadeInDown delay-50s"><a href="#header">SkatLine</a></div>
+			<div class="row">				
+				<div class="col-md-4 col-md-offset-4 wow fadeInDown animated">
+					<div class="contact-info-box address clearfix">
+						<i class="fa fa-home" aria-hidden="true"></i>
+						<span class="contact-info">Россия, г. Калининград</span>
+					</div>
+					<div class="contact-info-box email clearfix">
+						<i class="fa fa-envelope-o" aria-hidden="true"></i>
+						<span class="contact-info"><a href="mailto:sgresr@gmail.com" title="Напишите мне">sgresr@gmail.com</a></span>
+					</div>
+					<div class="contact-info-box phone clearfix">
+						<i class="fa fa-phone" aria-hidden="true"></i>
+						<span>+7(911) 495-40-46</span>
+					</div>					
+					<ul class="social-link">
+						<li class="facebook"><a href="https://www.facebook.com/sergio.ryabinin" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<li class="skype"><a href="skype:s--kat"><i class="fa fa-skype"></i></a></li>
+						<li class="gplus"><a href="https://plus.google.com/u/0/109509793420815184898" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="js/scrollToFixed.js"></script>
+	<script src="js/easing.1.3.js"></script>
+	<script src="js/wow.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/main.js"></script>
+
+	<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="js/html5element.js"></script>
+	<![endif]-->
+</body>
+</html>
