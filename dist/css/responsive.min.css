@@ -1,0 +1,93 @@
+@media screen and (max-width: 1199px) {
+  .navbar li.small-logo a {
+    font-size: 33px;
+    padding-right: 5px;
+    padding-left: 5px; }
+  .navbar .navbar-left a, .navbar .navbar-right a {
+    font-size: 17px; }
+  section {
+    padding-top: 5px; }
+    section .sectionTitle {
+      margin-bottom: 20px; }
+  .slick-dotted.slick-slider {
+    margin-bottom: 20px; } }
+
+@media screen and (max-width: 991px) {
+  header h3 {
+    font-size: 60px; }
+  .navbar .navbar-left, .navbar .navbar-right {
+    display: inline-block;
+    float: none !important;
+    margin-top: 9px; }
+  .navbar .navbar-right {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 10px; }
+  .navbar .navbar-nav.navbar-center {
+    display: none; } }
+
+@media screen and (max-width: 767px) {
+  .navbar-toggle .icon-bar {
+    background: #fff; }
+  .navbar-toggle {
+    margin-top: 14px; }
+    .navbar-toggle:hover .icon-bar {
+      background: #fcb446; }
+  .nav > li {
+    text-align: center; }
+  .navbar .navbar-left, .navbar .navbar-right {
+    display: block;
+    margin: 0; }
+  .navbar-collapse {
+    padding: 10px 0; }
+  .navbar .mobile_navLogo {
+    color: #fff;
+    font: 400 36px "Pacifico", cursive;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 10px; }
+    .navbar .mobile_navLogo:hover {
+      color: #fcb446; }
+  header .logo {
+    display: none; }
+  .personBox {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto; }
+  section {
+    padding-right: 15px;
+    padding-left: 15px; }
+  .actionSlider {
+    padding-top: 10px; }
+  .whatIKnow img {
+    width: 100px; } }
+
+@media screen and (max-width: 640px) {
+  header h3 {
+    font-size: 46px;
+    margin-top: 5%; }
+  #past h4 {
+    min-height: 0;
+    padding: 10px 0; }
+  #past h3 {
+    margin-top: 20px; }
+  #past .role {
+    min-height: 0;
+    margin-bottom: 10px; } }
+
+@media screen and (max-width: 480px) {
+  header h3 {
+    font-size: 36px; }
+  .personBox {
+    width: 70%; }
+  #whatIDo .tech {
+    text-align: center; }
+    #whatIDo .tech i {
+      display: block;
+      margin-bottom: 10px;
+      margin-right: 0;
+      text-align: center; } }
+
+@media screen and (max-width: 480px) {
+  .whatIKnow img {
+    width: 80px; } }

@@ -1,0 +1,15 @@
+{
+  "name": "porto",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-jshint": "latest",
+    "jshint-stylish": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-sass": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-imagemin": "~1.0.1"
+  }
+}
